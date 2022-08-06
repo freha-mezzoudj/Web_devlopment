@@ -1,0 +1,314 @@
+/*CSS can be added inline (directly in the Html element- which is not good);
+ internal way: using <style> tags within a signle html document (in the head part of the html file.); 
+ or external way by linking an external .css file using id ans classe concepts.*/
+
+/* This is a single-line comment */
+/* This is h1 style by default taken from inspection in my browse! 
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    color: red;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+  }
+  */
+/*style by default: user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}  
+*/
+/* NOT covering flexbox and animation, transition, etc. see it next time. 
+CSS (Cascading StyleSchhets) can be extended with Sass / Less 
+(for variables and conditionnal statements).
+Big thanks to Brad of Traversy :) */
+
+/* rule: selector{proprety: value;}
+ex.      a{background-colr: yellow;}*/
+
+/*By default:0px, 0px
+
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+*/
+
+
+body{
+    background-color: #f4f4f4;
+    color:brown;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px; /*16px is the default*/
+    font-weight:normal;
+    /*or: with a short way and mix all, same as above*/
+    font:normal 16px Arial, Helvetica, sans-serif;
+
+    line-height:1.6em; /*interligne*/
+    
+}
+
+ /*for links*/
+ a{
+    text-decoration:none;
+    color:#000;
+
+  } 
+ a:hover{
+    color:red;
+  }
+
+ a:active{
+    color:green;
+  }
+
+ a:visited{
+    /*color:black;*/
+  }
+
+
+/*Colors in CSS (4 ways): color names, Html5 color names(new ones), Hexadecimal; RGB*/
+/* color: red ...color: coral... color:#00ff00 ... color: rgb(0,0,255)=blue 
+#000000= black... #ffffff= white 
+
+rgb:  (255,0,0)=red...(0,255,0)=green...(0,0,255)= blue*/
+
+/*for fonts (2 types): web safe fonts available, other fonts to download!*/
+
+/*class: to target the class we use a dot .*/
+.container{
+    width:80%; /*500px is more responsive*/
+    margin:auto;
+}
+
+.button{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background:red;
+    color: #fff;
+}
+
+.clr{
+    clear:both;
+}
+
+.box-1{
+    background-color: #333333;
+    color:#ffffff; /*or white*/
+    /*-border-*/
+    border-right:5px red solid;
+    border-left:5px red solid;
+    border-top:5px red solid;
+    border-bottom:5px red solid;
+    /*same as above: using only border*/
+    border:5px red solid;
+    /*width*/
+    border-width:3px; /*10px inside 5px*/
+    border-bottom-width:20px;
+    border-top-style:dotted;
+
+    /*-Padding-*/
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    /*Same as above*/
+    padding:20px;
+    /*don't work:
+    padding:20px green solid;*/
+
+    /*margin*/
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    /*Same as above*/
+    margin:20px;
+    /*don't work: 
+    margin:20px blue solid; */
+}
+/*Box model: Content --> padding --> border --> margin */
+p{
+    margin: 5px 10px 5px 10px;
+    /*Same as:*/
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:10px;
+    margin-left:10px;
+    /*Same as:*/
+    margin:5px 10px;
+    /*Margin and padding shorthand*/
+}
+
+.box-2{
+    border:5px wheat dotted;
+    padding:10px;
+    margin:10px 0;
+}
+/*Box model: Content --> padding --> border --> margin */
+p{
+    margin: 5px 10px 5px 10px;
+    /*Same as:*/
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:10px;
+    margin-left:10px;
+    /*Same as:*/
+    margin:5px 10px;
+    /*Margin and padding shorthand*/
+}
+
+.box-1 h1{
+    color:burlywood;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:400;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+    word-spacing:1em; 
+   }
+
+ .box-1 h2{
+    color:cadetblue
+    font-family:Tahoma;
+    font-weight:100;
+    font-style:;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    word-spacing:0.7em; 
+   }
+
+ .categories{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px;
+ }
+
+ .categories h2{
+    text-align:center;
+ }
+
+ .categories ul{
+    padding:10px;
+    /*list-style:square;*/
+   
+ } 
+
+ .categories li{
+     padding-bottom:6px;
+     border-bottom:dotted 1px #333;
+     list-style-image:url("../project0/imgs/check.png.png"); /*don't works!*/
+ }
+
+.my-form{
+    padding:20px;  
+}
+.my-form .form-group{
+    padding-bottom:15px;  
+}
+.my-form label{
+    display:block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%;
+}
+/*
+.my-form input[type="submit"]{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+use it as button !*/
+
+.block{
+    float:left;
+    width:32%;   /*Brad put 33.3%*/
+    border:1px solid #ccc;
+    padding:5px;
+}
+#main-block{
+    float:left;
+    width:70%;
+    background-color:#555555;
+    padding:15px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float:right;
+    width:30%;
+    background-color:#333;
+    color:#fff;
+    padding:15px;
+    box-sizing: border-box; /* to float correctly!*/
+}
+/*Positioning in Css (6 ways):
+ static, 
+ relative, 
+ absolute,
+ Fixed, 
+ initial, 
+ inherit-*/
+
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top:30px;
+    position:relative;
+    background-image:url("../project0/imgs/abs.jpg");
+    /*background-repeat:no-repeat;*/
+    background-position:100px 200px;
+    background-position:center top;
+} 
+.p-box h1{
+    position:absolute;
+    top:100px;
+    left:200px;
+    /* top of the html page */
+ }
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:100px;
+ }
+ .fix-me{
+    position:fixed;
+    top:400px;
+ }
+
+ .my-list li:first-child{
+    background: red;
+ }
+ .my-list li:last-child{
+    background: blue;
+ }
+ .my-list li:nth-child(5){
+    background:yellow;
+ }
+ .my-list li:nth-child(even){
+    background:grey;
+ }
+
