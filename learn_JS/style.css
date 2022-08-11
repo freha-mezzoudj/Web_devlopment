@@ -1,0 +1,201 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+  p{
+    margin: 5px 10px 5px 10px;
+    color: red;
+    display: block;
+}
+/*style by default: user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}  
+*/
+/* NOT covering flexbox and animation, transition, etc. see it next time. 
+CSS (Cascading StyleSchhets) can be extended with Sass / Less 
+(for variables and conditionnal statements).
+Big thanks to Brad of Traversy :) */
+
+/* rule: selector{proprety: value;}
+ex.      a{background-colr: yellow;}*/
+
+/*By default:0px, 0px
+
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+*/
+
+
+body{
+    background-color: #f4f4f4;
+    color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px; /*16px is the default*/
+    font-weight:normal;
+    /*or: with a short way and mix all, same as above
+    font:normal 16px Arial, Helvetica, sans-serif;*/
+    line-height:1.6; /*interligne*/    
+}
+
+ /*for links*/
+ a{
+    text-decoration:none;
+    color:#000;
+
+  } 
+ a:hover{
+    color:red;
+  }
+
+ a:active{
+    color:green;
+  }
+
+ a:visited{
+    /*color:black;*/
+  }
+  ul{
+    list-style:none;
+  }
+
+ul li{
+    padding: 5px;
+    background: #f4f4f4
+    margin:5px 0;
+}
+/*Colors in CSS (4 ways): color names, Html5 color names(new ones), Hexadecimal; RGB*/
+/* color: red ...color: coral... color:#00ff00 ... color: rgb(0,0,255)=blue 
+#000000= black... #ffffff= white 
+
+rgb:  (255,0,0)=red...(0,255,0)=green...(0,0,255)= blue*/
+
+/*for fonts (2 types): web safe fonts available, other fonts to download!*/
+
+/*class: to target the class we use a dot .*/
+.container{
+    width:500px; /*500px is more responsive or 80%*/
+    margin:auto;
+    overflow:auto;
+    padding: 3rem 2rem;
+}
+
+.btn{
+    display: block;
+   /* width:80%;  /*100% */
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:0;
+    text-align: center;
+    border-radius:2em;
+    margin:5px 0;
+}
+
+.btn:hover{
+    background:#333;
+    background:red;
+    color: #fff;
+    padding:10px 25px;
+    border: solid rgb(50, 197, 205);
+}
+
+.clr{
+    clear:both;
+}
+
+ .items{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px;
+ }
+
+ .items h2{
+    text-align:center;
+ }
+
+ .items ul{
+    padding:10px;
+    /*list-style:square;*/  
+ } 
+
+ .items li{
+     padding-bottom:6px;
+     border-bottom:dotted 1px #333;
+     /*list-style-image:url("../project0/imgs/check.png.png"); /*don't works!*/*/
+ }
+
+.my-form{
+    padding:2rem; 
+    background: #f4f4f4; 
+}
+.my-form .form-group{
+    padding-bottom:15px;  
+}
+.my-form label{
+    display:block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%;
+    margin-bottom: 10px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+/*
+.my-form input[type="submit"]{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+use it as button !*/
+
+.block{
+    float:left;
+    width:32%;   /*Brad has put 33.3%*/
+    border:1px solid #ccc;
+    padding:5px;
+}
+#main-block{
+    float:left;
+    width:70%;
+    background-color:#555555;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+ .my-list li:first-child{
+    background: red;
+ }
+ .my-list li:last-child{
+    background: blue;
+ }
+ .my-list li:nth-child(5){
+    background:yellow;
+ }
+ .my-list li:nth-child(even){
+    background:grey;
+ }
+ .bg-dark{
+    background:#333;
+    color: #fff;
+ }
+.error{
+    background:orangered;
+    color:#fff;
+    padding:5px;
+    margin:5px;
+}
