@@ -3,16 +3,16 @@ Web2: step by step to master HTML, CSS and JS :)
 
 Thanks to Brad of Traversy media for the efforts :)
 
-Html crash course: https://www.youtube.com/watch?v=UB1O30fR-EE&t=283s
+1- Html crash course: https://www.youtube.com/watch?v=UB1O30fR-EE&t=283s
 
-Css crash course: https://www.youtube.com/watch?v=yfoY53QXEnI
+2- Css crash course: https://www.youtube.com/watch?v=yfoY53QXEnI
 
-JS crash course: https://www.youtube.com/watch?v=hdI2bqOjy3c
+3- JS crash course: https://www.youtube.com/watch?v=hdI2bqOjy3c
 
 -------------------------------------------------------------------
 
 Thanks to our friend of the Internet Ed Dev for the efforts :)
 
-Html Css crash course: https://www.youtube.com/watch?v=vQWlgd7hV4A&t=3844s
+4 (4-1, 4-2) Html Css crash course: https://www.youtube.com/watch?v=vQWlgd7hV4A&t=3844s
 
 --------------------------------------------------------------------
