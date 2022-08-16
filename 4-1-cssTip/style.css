@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{ 
+    font-size:62.5%;
+}
+
+.box1, .box2, .box3 {
+    /*max-width  min-width*/
+    /*max-width:60rem;*/
+    width:48%;
+    height:20rem;/*30rem;*/
+    /*background:lightslategrey;*/
+    border:2px solid black;
+    margin: 0.5%; /*1rem;*/
+    font-size:2.8rem;
+    padding:1rem;
+
+}
+
+.box1{
+    float:left;
+
+}
+.box2{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.box3{
+    width:100%;
+}
