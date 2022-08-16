@@ -1,1 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="HTML and CSS script languages dedicated to my Food site web" />
+    <meta name="robots" content="index, follow" />
+    <title>Freha_Professional Cooking Girl</title>
+    <link rel="icon" href="/imgs/house-hand-drawn-building.png">
+    <link rel="stylesheet" href="/style.css" />
+    
+</head>
+<body>
+    <h1>Texts</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Debitis ex maxime blanditiis voluptatibus, recusandae voluptatum 
+        explicabo dolorum unde, sint quod quae nihil harum voluptates vitae 
+        exercitationem, quas deleniti! </p>
+    <!-- text formatting : i strong mark em del -->
+    <div>
+    <h1>Images</h1>    
+    <img width="500"
+         height="700"
+         src="/imgs/code1.jpg" alt="Moutain and sea!">
+    </div>
+    <div>
+    <h1>Videos</h1>
+    <video 
+         controls
+         width="500"
+         height ="300"
+         src="/imgs/vedio_sea.mp4"></video>
+    </div>
+    <div>
+     <h1>Courses' link</h1>
+         <p>There is a link of : <a target="_blank" href="https://www.youtube.com/channel/UCeqTRPLh3uansADLCcdxOew"> 
+            my youtube channel</a>, thanks for watching!</p>
+         <p>There is the same link : 
+             <a target="_blank" href="https://www.youtube.com/channel/UCeqTRPLh3uansADLCcdxOew">
+                 <img width="30" height ="30" src="/imgs/iconmonstr-youtube-4-240.png"></a>, enjoy the learning!</p>
+         <!--"_blank" to open a new page for the link!-->
+        </div>
+        <div>
+            <h1>Forms</h1>
+            <form>
+                <label for="user"> User name</label>
+                <input autofocus 
+                       maxlength="30" 
+                       minlength="6" 
+                       name="user" 
+                       type="text" 
+                       id="user" 
+                       placeholder="6 chars minlength"
+                       required/>
+                
+                <label for="email1">Email</label>
+                <input autocomplete="off" type="email" id="email1"/>
+                
+                <select name="products" id="product">
+                    <option type = "text" value=""></option>
+                    <option value="Macbook 2018">Macbook</option>
+                    <option value="Hp 2020">HP</option>
+                    <option value="Acer black">Acer</option>
+                    <option selected value="Iphone 24">Iphone</option>
+                </select>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type ="submit">Submit</button>
+            </form>
+            <h1>Radio Form</h1>
+            <!--same name, many value-->
+            <form name="New products" id="product">
+                <input type="radio" name="products" value="Macbook 2018"/>
+                <input type="radio" name="products" value="Hp 2020"/> 
+                <input type="radio" name="products" value="Iphone_24">
+                <button type="submit">Submit</button>
+            </form>
 
+            <!--Time: 1:04:33 /3.54/02  https://www.youtube.com/watch?v=vQWlgd7hV4A  -->
+        </div>
+        <div>
+            <h1>Unordere List</h1>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                   <ul>
+                    <li>Contact 1</li>
+                    <li>Contact 2</li>
+                    <li>Contact 3</li>
+                   </ul>
+                <li>Project</li>
+                <li>About</li>
+            </ul>
+            <h1>Ordred List</h1>
+            <ol>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>Project</li>
+                <li>About</li>
+            </ol>    
+        </div>
+        <div>
+
+        <h1>Tables</h1>    
+            <table>
+                <tr>
+                    <th>fName</th>
+                    <th>lName</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Ed</td>
+                    <td>Your</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Ed1</td>
+                    <td>Mine</td>
+                    <td>48</td>
+                </tr>
+                <tr>
+                    <td>Ed2</td>
+                    <td>his</td>
+                    <td>25</td>
+                </tr>
+
+            </table>
+        </div>
+        <div>
+            <h1>Classes and Ids</h1>
+            <h1 id="logo">Logo</h1>
+            <h2>Article Title</h2>
+            <p class="articleText">Lorem ipsum dolor sit amet consectetur, adipisicing 
+              elit. Fugiat nostrum minus impedit aliquid omnis 
+              perspiciatis, molestias deserunt! Quasi esse numquam 
+              iusto, similique, eos facere reiciendis, distinctio 
+              dolores quod impedit eveniet. Adipisci nam ex iste 
+              debitis minus earum soluta. Nemo nesciunt omnis adipisci
+              provident repellat a quas nobis. Iure, similique earum.</p>
+            <h2>Article Title</h2>
+              <p class="articleClass">Lorem ipsum dolor sit amet consectetur, adipisicing 
+                elit. Fugiat nostrum minus impedit aliquid omnis 
+                perspiciatis, molestias deserunt! Quasi esse numquam 
+                iusto, similique, eos facere reiciendis, distinctio 
+                dolores quod impedit eveniet. Adipisci nam ex iste 
+                debitis minus earum soluta. Nemo nesciunt omnis adipisci
+                provident repellat a quas nobis. Iure, similique earum.</p>
+            <h2>Article Title</h2>
+            <p class="articleText">Lorem ipsum dolor sit amet consectetur, adipisicing 
+              elit. Fugiat nostrum minus impedit aliquid omnis 
+              perspiciatis, molestias deserunt! Quasi esse numquam 
+              iusto, similique, eos facere reiciendis, distinctio 
+              dolores quod impedit eveniet. Adipisci nam ex iste 
+              debitis minus earum soluta. Nemo nesciunt omnis adipisci
+              provident repellat a quas nobis. Iure, similique earum.</p>
+            <p>This a text have any relation with the articles.</p>
+            </div>
+            <p>---------------------------------------------------------</p>
+            <h1>My SiteWeb WITH HTML5 Semantics</h1>
+         <!--  Header ={logo + nav}   -->
+         <header>
+            <h1>Logo</h1>
+            <nav>
+                <ul>
+                        <li>Home</li>
+                        <li>Contact</li>
+                        <li>Project</li>
+                        <li>Sign Up</li>
+                </ul>
+            </nav>
+         </header> 
+         <!--  main ={section of 2 articles + section of figures}   -->
+         <main>
+            <section>      
+                <article>
+                    <h2>Article Title</h2>
+                      <p class="articleClass">Lorem ipsum dolor sit amet consectetur, adipisicing 
+                        elit. Fugiat nostrum minus impedit aliquid omnis 
+                        perspiciatis, molestias deserunt! Quasi esse numquam 
+                        iusto, similique, eos facere reiciendis, distinctio 
+                        dolores quod impedit eveniet. Adipisci nam ex iste 
+                        debitis minus earum soluta. Nemo nesciunt omnis adipisci
+                        provident repellat a quas nobis. Iure, similique earum.</p>
+                </article>
+                <article>    
+                    <h2>My little book</h2>
+                      <p class="articleText">Lorem ipsum dolor sit amet consectetur, adipisicing 
+                      elit. Fugiat nostrum minus impedit aliquid omnis 
+                      perspiciatis, molestias deserunt! Quasi esse numquam 
+                      iusto, similique, eos facere reiciendis, distinctio 
+                      dolores quod impedit eveniet. Adipisci nam ex iste 
+                      debitis minus earum soluta. Nemo nesciunt omnis adipisci
+                      provident repellat a quas nobis. Iure, similique earum.</p>
+                </article>
+         </section>
+
+         <section class="gallery">
+            <h2>Here is my image gallery</h2>
+            <div class="black-bk">
+            <img src="" alt="sea">
+            <img src="" alt="sea">
+            </div>
+            <div class="red-bk">
+            <img src="" alt="sea">
+            <img src="" alt="sea"> 
+            </div>
+
+            <!--imgs with the same style can be in the same div--> 
+
+            <!--The tag "figure"  add semantic meaning in the images.-->
+           
+            <figure>
+                <img src="" alt="mountain">
+                <figcaption>Nature Picture By Freha</figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="sea">
+                <figcaption>Nature Picture By Freha</figcaption>
+            </figure>
+        </section> 
+        </main>
+            <aside></aside>
+            <footer>
+<p>Created 2018 copyright</p>
+<ul>
+    <li><a href="twitter.com/">Twitter</a></li>
+</ul>
+            </footer>
+        <p>-----------------------------------------------</p>    
+        <h1>HTML Entities&lt;</h1>
+        <p>&lacute; &lap; &ldsh; &copy; &reg; 
+            <a target="_blank" href="https://www.w3schools.com/charsets/ref_html_entities_4.asp">Entities of Html</a>
+        </p>
+        <p>-----------------------------------------------</p> 
+        <h1> Getting started with CSS</h1> 
+        <h1>Why U Do Dis?</h1>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste enim, aspernatur ipsa quis at. 
+            Cumque nesciunt perspiciatis obcaecati commodi.
+            <strong>Course</strong>: <a target="_blank" href="https://www.youtube.com/watch?v=vQWlgd7hV4A"> html-css</a>
+            01:39:31  /  02:14:31 --> GO ...</p>
+        <h1 class="main-title">This is my awesome story :)</h1> 
+        <h1>This is my awesome story :)</h1>
+        <h2>Mom is cooking the good stuff</h2> 
+        <section class="random">
+        <div>    
+        <h1 class="main-title">This is my awesome story :)</h1> 
+        <h1>This is my awesome story :)</h1>
+        <h2>This is my story :)</h2>     
+        <h2>Mom is cooking the good stuff</h2> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla minima optio totam
+             aliquam veniam ullam voluptatibus corporis magni.</p>
+        </div>
+        <h2>Mom is cooking the good stuff</h2>
+        <h2>Mom is cooking the good stuff</h2> 
+        <h2>Mom is cooking the good stuff</h2>  
+        <a id ="youtube-link" href=#> Empty link</a>
+        </section>
+        <section class="gallery">
+            <h1 class="my-list">My List</h1>
+            <ul>
+                <li>Hello there</li>
+                <li>Hello there</li>
+                <li>Hello there</li>
+                <li>Hello there</li>
+                <li>Hello there</li>
+            </ul>
+        
+            <ul class="links">
+                <li>Hey</li>
+                <li>Hey</li>
+                <li>Hey</li>
+                <li>Hey</li>
+                <li>Hey</li>
+            </ul>
+        </section>
+        <h1 id="head" class="header" >Dev Ed's throat hurts</h1>
+        <p>Hello there my gorgeous friend on the internet.
+            /gorgeous: merveilleux, magnifique, épatant :)/
+        </p>
+<!-- time: 02.11.35     /  01.42.27   crash course html css of Ed dev-->        
+<section>
+    <div>   
+        <h1>Margins and Paddings</h1>
+        <p>margin --> border --> padding</p> 
+        <button>Submit</button> 
+    </div>
+    <div class="style1"> 
+        <h1>Box Model</h1>
+        <button>Submit</button> 
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ipsa inv
+        entore nesciunt, error beatae facilis!</p>
+    </div>
+    <div class="style1"> 
+        <h1>Box Model</h1>
+        <button>Submit</button> 
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ipsa inv
+        entore nesciunt, error beatae facilis!</p>
+    </div>
+</section>
+
+<section class="text-section">
+    <h1>sizes units: pixel em rem</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Provident beatae exercitationem consectetur 
+        quia tempore eos porro, quas doloribus nihil voluptatem.</p>    
+    <div class="style1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Consequuntur quisquam consectetur totam mollitia alias nihil et, dolores rem fugiat facere.</p>
+    </div>
+    <p>It s using many "em" :)</p>
+</section>
+
+<section class="text-section2">
+    <h1>sizes units: pixel em <strong>rem</strong></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Provident beatae exercitationem consectetur 
+        quia tempore eos porro, quas doloribus nihil voluptatem.</p>    
+    <div class="style1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Consequuntur quisquam consectetur totam mollitia alias nihil et, dolores rem fugiat facere.</p>
+    </div>
+    <p>It s look very pretty using many "rem" :)</p>
+    <p>Thanks my friend on Internet Ed Dev!</p>
+</section>
+<section>
+    <h1>Styling a Button bt1</h1>
+    <button class="bt1">Sign Up</button>
+    
+    <h1>Styling a Button bt2</h1>
+    <button class="bt2">Sign Up</button> 
+
+    <h1>Styling a Button bt3</h1>
+    <button class="bt3">Sign Up</button> 
+</section>
+<section>
+   <h1> Display in Block</h1>
+   <h2 class="demo1">yahhhhhhhhhhhhhh</h1> 
+   <p>noooooooooooo</p>
+
+   <h1>Display inline: inline</h1>
+   
+   <div>
+   <p>Inline elements don't accept margin, padding or </p>
+   <a class="demo2" href="#"> Link to my Website!</a>
+   <a class="demo2" href="#"> Link to my Youtube Channel!</a>
+   <img class="img1" src="/imgs/code2.jpg" alt="sea">    
+   </div>
+   <div class = "demo2">
+   <img class="img1" src="/imgs/code2.jpg" alt="sea"> 
+   <img class="img1" src="/imgs/code2.jpg" alt="sea1"> 
+   </div>
+
+   <h1>Display inline: block</h1>
+   <div>
+    <a class="demo3" href="#"> Link to my Website!</a>
+    <a class="demo3" href="#"> Link to my Youtube Channel!</a>
+   </div>
+
+   <h1>Display inline: inline-block</h1>
+   <div>
+    <a class="demo4" href="#"> Link to my Website!</a>
+    <a class="demo4" href="#"> Link to my Youtube Channel!</a>
+   </div>
+
+   <div>
+    <a class="demo5" href="#">Linnnnnnk</a>
+   </div>
+</section>
+<section>
+    <div class="container1">
+        <div class="box1"><p>Box1</p></div>
+        <div class="box2"><p>Box2</p></div>
+        <div class="box3"><p>Box3</p></div>
+    </div>
+</section>
+<section>
+    <h1>-----------------------------------------------------</h1>
+    <h1>pseudo classes : in CSS</h1>
+    <button class="myBt1">Sign Up</button>
+    <button class="myBt1">Sign Up2</button>
+    <button class="myBt1">Sign Up3</button>
+    <input  type="text" />
+</section>
+
+<section>
+    <h1>-----------------------------------------------------</h1>
+    <h1>Before and after :: in CSS</h1>
+    <h1 class="myH1">Hello</h1>
+</section>
+</body>
+</html>
+<!-- 
+    Crash course: https://www.youtube.com/watch?v=vQWlgd7hV4A
+    icon : https://www.flaticon.com/search?word=house&shape=hand-drawn&order_by=4
+         :<a href="https://www.flaticon.com/free-icons/hand-drawn" title="hand drawn icons">Hand drawn icons created by Freepik - Flaticon</a>
+    vedio: Vidéo de Peter Fowler provenant de Pexels
+-->

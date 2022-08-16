@@ -1,0 +1,282 @@
+h1{
+    color:rgb(63, 54, 13) !important;
+}
+
+h1{
+    color: cornflowerblue;
+}
+h2{
+    color:cadetblue
+}
+
+#youtube-link{
+    color: black;
+}
+.random h1{
+    color:chocolate;
+}
+.main-title{
+    color:rgb(180, 149, 10) 
+}
+.my-list + ul{
+    list-style:none;   
+}
+ul > li{
+    color:fuchsia;
+}
+.links li:nth-child(1){
+    color:rgb(43, 9, 103);
+}
+
+/*1) - if in the css file, wa add "!important": this give to the element the heighest priority
+(but it bad to use)
+exemple: 
+h1{
+    color:rgb(63, 54, 13) !important;
+}
+*/
+
+/* 2)-- if we have the style applied in the element (h1 for example) in the html file:
+i have the more important priority than the id, the classe or the elt in css file. 
+(but it is bad to use) */
+
+
+/* 3) -- CSS IDs (1,0,0) (which are uniques) has more height priority than the classes.
+
+4)-- CSS (0,1,0) classes has height priority than element(0,0,1).*/
+
+/*  5)-- CSS works from up to down: h1:red -->  h1:blue.
+...as result: h1 is blue.  */
+
+#head{
+    color:rgb(43, 9, 103)
+}
+
+.header{
+    color:coral;
+}
+
+/*if we have the style applied in the element (h1 for example) in the html file:
+i have the more important priority than the id, the classe or the elt in css file. */
+
+/*if in the cqs file, wa add "!important": this give to the element the heighest priority*/ 
+
+/* exemple: 
+h1{
+    color:rgb(63, 54, 13) !important;
+}
+*/
+/*time: 02.11.35     /  01.42.27   crash course html css of Ed dev*/
+button{
+    /* margin: space outside of the element*/
+    margin:30px;
+    /* padding: inside of the element*/
+    padding:7px ;
+    /*4 values: top right bottom left*/
+    /*2 values; (top/bottom) (right/left)
+    /*border(2px) : between the margin and the padding*/
+}
+/* Avoid us a lot of troubles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+.style1{
+    background: gray;
+    color:white;
+    width: 100%;
+    padding:20px;
+    margin-top:20px;
+    border:5px solid black;
+
+}
+/* 
+using font-size (px): fixed the size, which is not responsive*/
+/* 1em = 16px = html by default.*/
+/*
+.text-section{
+    font-size: 20px;
+}
+.text-section div{
+    font-size:20px;
+}
+*/
+/* the same section for the 2 paragraphs*/
+.text-section{
+    font-size: 1.5em;
+} /*16px * 1.5 = 24px*/
+.text-section div{
+    font-size:1.5em;
+    margin-top: 2em;
+    /*size of his parent (24px) * 1.5 = 36px */
+}
+/* rem depend only of the html parent - a single time*/
+.text-section2{
+    font-size: 1.5rem;
+} /*16px * 1.5 = 24px*/
+.text-section2 div{
+    font-size:1.5rem;
+    margin-top: 2rem;
+    /* his of his parent (24px) * 1.5 = 36px */
+}
+
+/* Styling the Button */
+
+html{
+    font-size:62.5%; /*62.5%*/
+}
+
+.bt1{
+   margin:20rem;
+   padding:2rem 4rem;
+   background:none;
+   border:0.3rem dotted cornflowerblue;
+   font-size:2.4rem;
+   border-radius: 1rem;
+   border-top-left-radius: 3rem; /* 90% 3rem;*/
+}
+
+.bt2{
+    margin:20rem;
+    padding:2rem 4rem;
+    background:none;
+    border:0.3rem dotted cornflowerblue;
+    font-size:2.4rem;
+    border-radius: 50%; /* 90% 3rem;*/
+    height:20rem;
+    width:20rem; 
+}
+
+.bt3{
+    margin:20rem;
+    padding:2rem 4rem;
+    border:0.3rem dotted cornflowerblue;
+    color:white;
+    font-size:2.4rem;
+    border-radius: 1rem; /* 90% 3rem;*/
+   /*height:20rem;
+    width:20rem;*/
+    background: cornflowerblue;
+} 
+.demo1{
+height: 4rem;
+background:grey;
+color: black;
+}
+.img1{
+    height:5rem;
+    width:5rem;
+    border:3px solid blue; 
+
+}
+/*
+.demo2{
+    margin:2rem;
+    padding:2rem;
+    border:3px solid blue; 
+    background:lightsteelblue;
+}*/
+
+.demo3{
+    display:block;
+    margin:2rem;
+    margin-top:4rem;
+    padding:2rem;
+    border:3px solid blue;
+    background:lightsteelblue;
+}
+
+.demo4{
+    display:inline-block;
+    margin:2rem;
+    padding:2rem;
+    border:3px solid blue;
+    background:lightsteelblue;
+}
+.demo5{
+    display:inline-block;
+    height: 20rem;
+    width:20rem;
+    margin:2rem;
+    padding:2rem;
+    background: lightblue;
+}
+/*
+ html, body{
+    height:100%;
+ }
+
+ */
+ /* start time: 03:02:38   
+ /* end time: 03:14:00  */  
+
+ .container1{
+    color:aliceblue;
+    background: lightblue;
+    width: 90%;
+    height: 500px;
+    margin:auto; /* to center the container*/
+    position:relative;
+}
+.box1, .box2, .box3 {
+    width:20%;
+    height:20%;
+    background: lightcoral;
+    /*border:3px solid red;*/
+}
+.box2 {
+    background:rgb(157, 40, 58);
+}
+
+.box3 {
+    background:rgb(213, 116, 77);
+}
+
+.box1 {
+   /* position:static;*/
+    position:absolute;
+   /* top:300px;*/
+    right:0%;
+    bottom:0%;
+    /*transform:translate(-50%, -50%);*/
+}
+/*Pseudo classes*/
+.myBt1{
+padding:2rem 4rem;
+cursor:pointer;
+}
+
+.myBt1:hover{
+    background:lightblue;
+}
+
+.myBt1:focus{
+    background:rgb(173, 216, 173);
+}
+
+input:focus{
+    background:rgb(16, 148, 16);
+    color:white;
+}
+
+.myBt1:nth-child(3){
+    padding:2rem 4rem;
+    cursor:pointer;
+    background:rgb(144, 98, 125);
+}
+/* before and after */
+.myH1 {
+    font-size:3rem;
+    margin-top:1.2rem;
+}
+
+.myH1::before {
+   content:" me ";
+   font-size: 2rem;
+}
+
+.myH1::after{
+    content: " me ";
+}
