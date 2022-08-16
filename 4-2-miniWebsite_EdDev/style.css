@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{ 
+    font-size:62.5%;
+}
+.clear{
+    clear:both;
+}
+
+h1{
+    font-size:2.8rem;
+    
+
+}
+h2{
+    font-size:3.6rem;
+    padding:5rem 0rem;
+    
+}
+
+a{
+    color: white;
+    text-decoration:none;
+    font-size: 2.4rem;
+}
+h3{
+    font-size:2.8rem;
+   
+}
+button{
+    font-size:1.8rem;
+}
+
+nav{
+    background: rgb(146, 116, 91);
+    color:white;
+    padding:2rem;
+}
+nav h1{
+    float:left;
+}
+nav ul{
+    float:right;
+    list-style:none;
+}
+nav li{
+    float:left;
+    margin:0rem 4rem;
+}
+.hero-section{
+    /*background-image: url("/imgs/pexels-engin-akyurt-7478998.jpg");*/
+   /* background-image: url("/imgs/pexels-nishant-aneja-2955816.jpg");*/
+    background-image: url("/imgs/pexels-ekaterina-bolovtsova-5662098.jpg");
+    height:90rem;
+    background-position:center bottom;
+    background-size: cover;
+    color:white;
+    text-align: center left;
+    padding-top:10rem;
+    padding-left:10rem;
+    text-shadow: 3px 3px 3px red;
+
+}
+
+.hero-section button{
+    padding:2rem 4rem;
+    margin-top:6rem;
+    background:rgb(146, 116, 91);
+    border:none;
+    color:white;
+    border-radius: 0.8rem;
+
+}
+
+.form-section {
+   text-align:center;
+
+}
+
+form{
+}
+
+form input, form label, form textarea {
+    display:block;
+    font-size:2.4rem;
+    margin:2rem auto;
+    width:50%;
+
+}
+form button{
+    padding:2rem 4rem;
+    margin-top:4rem;
+    margin-bottom:7rem;
+    background:rgb(146, 116, 91);
+    border:none;
+    color:white;
+    border-radius: 0.8rem;
+    cursor:pointer;
+ 
+}
+
