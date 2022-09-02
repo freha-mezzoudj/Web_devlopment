@@ -7,7 +7,7 @@ Thanks to Brad of Traversy media for the efforts :)
 
 1-1- Web site for Travel: Create a Website With Video Background | HTML & CSS
 
-                     https://www.youtube.com/watch?v=8MgpE2DTTKA
+               see:  https://www.youtube.com/watch?v=8MgpE2DTTKA
 
 2- Css crash course: https://www.youtube.com/watch?v=yfoY53QXEnI
 
